@@ -1,4 +1,4 @@
-let text ='frontend developer,</br> open source developer</br> &technical writer';
+let text ='frontend developer, <br/> &technical writer';
 
 
 let text2 = 'With a passion for building and getting solutions </br> through open source projects'
