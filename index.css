@@ -1,0 +1,87 @@
+*{
+    font-family: Inter,sans-serif;
+    --margin:40px
+    /* --colorGrey:rgba(78, 77, 76, 0.2); */
+    
+
+}
+body{
+    /* overflow: hidden; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#resume{
+    width: 100px;
+    height: 50px;
+    background-color:rgba(78, 77, 76, 0.2) ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+    
+}
+p{
+    /* text-align: center; */
+ margin-left:var(--margin) ;
+    
+    
+}
+a{
+    text-decoration: none;
+    /* color: black; */
+}
+footer{
+    background-color:rgba(78, 77, 76, 0.2);
+    height: 200px;
+    width: 100vw;
+
+}
+h3{
+    margin-left: var(--margin);
+    
+}
+h2{
+    margin-left: var(--margin);
+    font-weight: lighter;
+    font-size: 1rem;
+}
+h1{
+    margin-left: var(--margin);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#divImage{
+    display: flex;
+}
+#divImage div:first-child ul li{
+    color: black;
+    /* margin-left: var(--margin); */
+    font-weight: bold;
+    /* text-decoration: underline; */
+    text-decoration-color: black;
+    text-transform: uppercase;
+    
+    
+    
+}
+#divImage div:last-child ul li{
+    color:black;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    text-decoration-color: black;
+    text-transform: uppercase;
+    
+    
+}
+.aboutMe{
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    padding: 50px;
+    font-weight: bold;
+}

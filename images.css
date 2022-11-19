@@ -1,0 +1,30 @@
+
+
+@media only screen and (max-width:768px) {
+    .dev{
+        width: 180px;
+        height: 180px;
+        /* border-radius: 30%; */
+        z-index: -1;
+    }
+    #divImage{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        justify-content: space-between;
+        /* background-color:rgba(78, 77, 76, 0.2); */
+        background-image: url("./diamond.jpeg");
+        z-index: -1;
+    
+        
+    }
+
+    #mainDev{
+        padding: 10px;
+        background-color: whitesmoke;
+        border-bottom-color: red;
+        border-top-color: red;
+    }
+    
+}
