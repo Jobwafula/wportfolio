@@ -5,6 +5,9 @@
     
 
 }
+:root{
+    --primaryColor:rgba(78, 77, 76, 0.2) ;
+}
 body{
     /* overflow: hidden; */
     padding: 0;
