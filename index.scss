@@ -1,10 +1,14 @@
-$primaryColor:rgba(78, 77, 76, 0.2) ;
+@import "sassVar.scss";
+
+
 .benefit{
     .ben1{
         background-color: $primaryColor;
+        position: relative;
 
     }
     .ben2{
         background-color: $primaryColor;
+        position: relative;
     }
 }
