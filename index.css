@@ -89,16 +89,20 @@ h1{
     padding: 50px;
     font-weight: bold;
 }
+
+                /* div benefits */
 .ben1{
     background-color:var(--primaryColor) ;
     padding: 10px;
     margin-bottom: 10px;
     margin: 10px;
-    height: 200px;
+    /* height: 200px; */
+    position: relative;
 }
 .ben2{
     background-color: var(--primaryColor);
     padding: 10px;
     margin: 10px;
-    height: 200px;
+    /* height: 200px; */
+    position: relative;
 }
