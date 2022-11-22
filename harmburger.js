@@ -10,5 +10,6 @@ function display(){
     // harmBurger.classList.toggle("active");
     // navMenu.classList.toggle("active");
     alert("under development !");
+    
 
 }
