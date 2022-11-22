@@ -6,7 +6,9 @@ harmBurger.addEventListener("click",display());
 
 //display function
 function display(){
-    harmBurger.classList.toggle("active");
-    navMenu.classList.toggle("active");
+    
+    // harmBurger.classList.toggle("active");
+    // navMenu.classList.toggle("active");
+    alert("under development !");
 
 }

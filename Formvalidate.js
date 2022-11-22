@@ -1,26 +1,22 @@
- const name = document.getElementById("name");
-const email = document.getElementById("name");
-// const subject = document.getElementById("name");
-// const message = document.getElementById("name");
-
-form.addEventListener('submit',e=>{
-    e.preventDefault();
-
-    validateInputs();
-});
 
 
-const setError = (element,message)=>{
-
-}
-
-const validateInputs = ()=>{
-    const namevalue = name.value.trim();
-    const emailvalue = email.value.trim();
 
 
-    if(namevalue === ''){
-
+function validateForm() {
+    let x = document.forms["myform"]["fname"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
     }
-
-}
+    let e = document.forms["myform"]["femail"].value;
+    if (e== "") {
+      alert("email must be filled out");
+      return false;
+    }
+    let m = document.forms["myform"]["fmessage"].value;
+    if (m == "") {
+      alert("message must be filled out");
+      return false;
+    }
+    
+  }
