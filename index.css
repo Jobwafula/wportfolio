@@ -106,3 +106,41 @@ h1{
     height: 300px;
     
 }
+/* map styles */
+#map{
+    height: 100vh;
+}
+
+
+header{
+    background-color:rgba(78, 77, 76, 0.2) ;
+    width: 100vw;
+    height: 20vh;
+}
+
+
+/* header dashboard  desktop view*/
+@media only screen and (min-width: 992px){
+header{
+    background-color: var(--primaryColor);
+    height: 200px;
+    width: 100%;
+}
+header #Hmenu #navMenu{
+    display: flex;
+    justify-content:space-between ;
+
+}
+}
+
+
+/* tablet view */
+@media only screen and (min-width: 768px) {
+    header{
+        background-color: var(--primaryColor);
+        height: 200px;
+        width: 100%;
+    }
+    
+
+}
