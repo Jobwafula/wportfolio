@@ -164,10 +164,23 @@ header #Hmenu #navMenu{
         justify-content: space-between;
     
     }
+    /* container1 */
+    #container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     
 
 }
 /* text */
 #text{
 
+}
+
+/* container1 */
+#container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
