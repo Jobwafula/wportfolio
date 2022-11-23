@@ -26,7 +26,12 @@ body{
     justify-content: center;
     margin-top: 50px;
     
+}
+#resume a{
+    color: blueviolet;
+    text-decoration: none;
     
+    margin-left: -10px;
 }
 p{
     /* text-align: center; */
@@ -89,7 +94,11 @@ h1{
     padding: 50px;
     font-weight: bold;
 }
+.aboutMe a{
+    text-decoration: none;
+    color: blueviolet;
 
+}
                 /* div benefits */
 .ben1{
     background-color:var(--primaryColor) ;
@@ -156,5 +165,9 @@ header #Hmenu #navMenu{
     
     }
     
+
+}
+/* text */
+#text{
 
 }
